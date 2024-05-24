@@ -62,7 +62,7 @@ const ComponentCard = ({ item, setComponents }) => {
         className="w-[30px] text-gray-600 absolute right-10 top-2 cursor-pointer"
         onClick={() => router.push(`/my-components/${item._id}`)}
       />
-      <div className="border border-gray-200 bg-white shadow-sm rounded-md cursor-pointer pb-4">
+      <div className="border border-gray-200 bg-white shadow-sm rounded-md  pb-4">
         <h3 className="text-base p-3 font-semibold leading-6 text-gray-900">
           {item.title}
         </h3>
