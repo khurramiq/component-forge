@@ -3,32 +3,32 @@ import {
   CloudArrowUpIcon,
   FingerPrintIcon,
   LockClosedIcon,
-} from "@heroicons/react/24/outline";
+} from '@heroicons/react/24/outline';
 
 export default function AboutSection() {
   const features = [
     {
-      name: "Push to deploy",
+      name: 'AI-Powered Component Generation',
       description:
-        "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+        'Leveraging advanced language models, our platform empowers users to effortlessly generate high-quality, responsive components tailored to their specifications through natural language prompts, streamlining the development process.',
       icon: CloudArrowUpIcon,
     },
     {
-      name: "SSL certificates",
+      name: 'Secure Component Saving',
       description:
-        "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+        'Users can securely save their custom-generated components for future use, knowing that their work is stored safely and can be accessed whenever needed.',
       icon: LockClosedIcon,
     },
     {
-      name: "Simple queues",
+      name: 'Coding Made Enjoyable',
       description:
-        "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+        "Whether you're a seasoned developer or someone with little to no coding experience, our website offers an engaging and enjoyable way to create components. Non-coders can generate code through natural language prompts, while developers can streamline their workflow and explore new possibilities.",
       icon: ArrowPathIcon,
     },
     {
-      name: "Advanced security",
+      name: 'Advanced security',
       description:
-        "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+        'Robust security measures are implemented to safeguard user data and protect against potential threats, providing users with peace of mind when using the application.',
       icon: FingerPrintIcon,
     },
   ];

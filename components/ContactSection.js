@@ -10,8 +10,10 @@ export default function ContactSection() {
           Start using our app today.
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-          Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim
-          id veniam aliqua proident excepteur commodo do ea.
+          We value your feedback! Use this section to report any complaints or
+          suggest improvements for our website. Your input helps us enhance your
+          experience. Click the "Email Us" button or explore more ways to get in
+          contact.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <button
